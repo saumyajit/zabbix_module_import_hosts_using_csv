@@ -22,13 +22,25 @@ This software is licensed under the GNU Lesser General Public License v3.0.
 
 ## 🧩 Installation
 
-For Debian and Ubuntu server, the Zabbix Frontend modules are usually placed in /usr/share/zabbix/modules/ (up to Zabbix 7.0) or /usr/share/zabbix/ui/modules/ (Zabbix 7.2 and newer).
+For Debian and Ubuntu servers, the Zabbix Frontend modules are usually placed in:
 
-Copy the folder modules/zabbix_import_hosts_using_csv to /usr/share/zabbix/modules/zabbix_import_hosts_using_csv or /usr/share/zabbix/ui/modules/zabbix_import_hosts_using_csv on the Zabbix frontend web server, depending on the Zabbix version.
+- `/usr/share/zabbix/modules/` (up to Zabbix 7.0)  
+- `/usr/share/zabbix/ui/modules/` (Zabbix 7.2 and newer)
 
-Note: If you're using Zabbix 6.2 or 6.0, you'll need to remove manifest.json and rename manifest.v1.json to manifest.json.
+Copy the folder `modules/zabbix_import_hosts_using_csv` to:
 
-Then go to Administration, General, Modules, click Scan directory and enable the new module in the list.
+- `/usr/share/zabbix/modules/zabbix_import_hosts_using_csv` **or**  
+- `/usr/share/zabbix/ui/modules/zabbix_import_hosts_using_csv`  
+
+on the Zabbix frontend web server, depending on your Zabbix version.
+
+> **Note:** If you're using Zabbix 6.2 or 6.0, you'll need to **remove `manifest.json`** and **rename `manifest.v1.json` to `manifest.json`**.
+
+Then, in the Zabbix web interface, navigate to:
+
+`Administration → General → Modules`  
+
+Click **Scan directory** and enable the new module in the list.
 
 ## 🚀 Usage
 
