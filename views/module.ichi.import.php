@@ -17,7 +17,7 @@ if (!class_exists('CHtmlPage') && class_exists('CWidget')) {
 	class_alias('CWidget', 'CHtmlPage');
 }
 
-$widget = (new CHtmlPage())->setTitle(_('Import Host Uisng CSV file'));
+$widget = (new CHtmlPage())->setTitle(_('Create Host Uisng CSV file'));
 $form_list = (new CFormList('hostListFormList'));
 $form = (new CForm('post', (new CUrl('zabbix.php'))
         ->setArgument('action', 'ichi.import')
