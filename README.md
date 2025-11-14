@@ -3,21 +3,24 @@
 This is a Zabbix frontend module that provides a simplified host import via CSV files.
 
 zabbix_import_hosts_using_csv
-License
+
+## 🧾 License
+
+This software is licensed under the [GNU Lesser General Public License v3.0 (LGPL-3.0)](https://www.gnu.org/licenses/lgpl-3.0.html).
+
+## 📦 Download
+
+You can find the latest version of the module for supported Zabbix releases on the [GitHub Releases page](https://github.com/saumyajit/zabbix_import_hosts_using_csv).
+
+## ⚙️ Requirements
 
 This software is licensed under the GNU Lesser General Public License v3.0.
-
-# Download
-
-You can find the latest versions for the respective Zabbix releases on the Github releases page.
-
-# Requirements
 
     Zabbix 6.0, 6.2, 6.4, 7.0, 7.2, 7.4
     File write access to the Zabbix frontend server
     Super admin permissions for the Zabbix users that want to use the frontend module
 
-# Installation
+## 🧩 Installation
 
 For Debian and Ubuntu server, the Zabbix Frontend modules are usually placed in /usr/share/zabbix/modules/ (up to Zabbix 7.0) or /usr/share/zabbix/ui/modules/ (Zabbix 7.2 and newer).
 
@@ -27,7 +30,7 @@ Note: If you're using Zabbix 6.2 or 6.0, you'll need to remove manifest.json and
 
 Then go to Administration, General, Modules, click Scan directory and enable the new module in the list.
 
-# Usage
+## 🚀 Usage
 
 Once the frontend module is activated, a new menu entry Host CSV Importer should appear under Configuration (6.0, 6.2) or Data collection (6.4+).
 
@@ -153,3 +156,14 @@ The following CSV columns are supported:
 
 
 The CSV file can then be imported in the same menu entry. You get a chance to preview the host list before the actual import.
+
+
+## 🧱 Contributing
+
+Contributions, suggestions, and bug reports are welcome!  
+Please open an issue or pull request on [GitHub](https://github.com/saumyajit/zabbix_import_hosts_using_csv).
+
+## 🙌 Acknowledgements
+
+Developed and maintained by **Saumyajit**.  
+Special thanks to the Zabbix community for continuous inspiration and support.
