@@ -1,0 +1,22 @@
+{
+	"manifest_version": 1,
+	"id": "zbx_host_importer_csv",
+	"name": "Host Importer",
+	"version": "1.0",
+	"namespace": "HostImport",
+	"author": "Saumyajit Pramanik",
+	"url": "https://www.zabbix.com/",
+	"description": "Import hosts in zabbix using CSV file.",
+	"actions": {
+		"ichi.import": {
+			"class": "CSVHostImport",
+			"view": "module.ichi.import"
+		},
+		"ichi.example": {
+			"class": "CSVHostImportExample",
+			"layout": "layout.ichi.example"
+		}
+	},
+	"config": {
+	}
+}
