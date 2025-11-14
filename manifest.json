@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"id": "zbx_host_importer_csv",
 	"type": "module",
-	"name": "Host Importer,
+	"name": "Host Importer",
 	"version": "1.0",
 	"namespace": "HostImport",
 	"author": "Saumyajit Pramanik",
