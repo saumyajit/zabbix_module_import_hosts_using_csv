@@ -145,10 +145,11 @@ The following CSV columns are supported:
 | INV_VENDOR              | Inventory: Vendor                                                                              |                     |
 
 
-Additional hints:
+### Additional hints:
 
-    The columns are case-insensitive, so **NAME**, **name** and **NaMe** are all valid.
-    The columns must be in the first line of the CSV file.
-    The separator character must be the same as in the import dialog and can either be a semicolon, comma or a tabulator.
+- The columns are case-insensitive, so **NAME**, **name**, and **NaMe** are all valid.
+- The columns must be in the first line of the CSV file.
+- The separator character must be the same as in the import dialog and can either be a semicolon, comma, or a tabulator.
+
 
 The CSV file can then be imported in the same menu entry. You get a chance to preview the host list before the actual import.
